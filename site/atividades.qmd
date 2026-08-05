@@ -1,0 +1,55 @@
+---
+title: "Atividades de divulgação científica"
+subtitle: "O que os bolsistas PQ efetivamente fizeram nos 12 meses anteriores à coleta, e como isso varia entre grupos."
+---
+
+```{=html}
+<script>document.body.dataset.pqSecao = "atividades";</script>
+```
+
+::: {.panel-tabset}
+
+## Frequência por atividade
+
+### Entre as seguintes atividades de divulgação científica, nos últimos 12 meses quantas vezes você… {.pq-pergunta}
+
+::: {data-pq="distribuicao" data-bloco="adc1"}
+:::
+
+### Cruzamento com o perfil sociodemográfico
+
+Escolha uma atividade e uma característica para ver como as duas se
+relacionam. São 15 × 11 = 165 cruzamentos.
+
+::: {data-pq="mosaico" data-bloco="adc1"}
+:::
+
+{{< include _explicacao-mosaico.qmd >}}
+
+## Relação com a mídia
+
+### Quando você conclui uma pesquisa, você entra em contato com a mídia para comunicar os resultados? {.pq-pergunta}
+
+::: {data-pq="distribuicao" data-bloco="adc2"}
+:::
+
+::: {data-pq="mosaico" data-bloco="adc2"}
+:::
+
+### No seu caso, qual importância tem os seguintes profissionais para a sua comunicação com o público não-especialista: {.pq-pergunta}
+
+::: {data-pq="distribuicao" data-bloco="adc3"}
+:::
+
+::: {data-pq="mosaico" data-bloco="adc3"}
+:::
+
+### Em geral, de que modo você é solicitado/a pela mídia? {.pq-pergunta}
+
+::: {data-pq="distribuicao" data-bloco="adc6"}
+:::
+
+::: {data-pq="mosaico" data-bloco="adc6"}
+:::
+
+:::

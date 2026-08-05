@@ -1,0 +1,259 @@
+---
+title: "Nota metodológica"
+subtitle: "Como os dados foram coletados, o que os números significam e onde eles param de significar."
+toc: true
+---
+
+```{=html}
+<script>document.body.dataset.pqSecao = "";</script>
+```
+
+## Como os dados foram coletados
+
+Os resultados vêm de um questionário *online* autoaplicado com 51 perguntas
+organizadas em sete seções, respondido entre janeiro e março de 2023 por
+bolsistas de Produtividade em Pesquisa (PQ) do CNPq. Foram obtidas
+**<span data-pq-num="meta.n_total"></span> respostas**, cerca de 12% da
+população de bolsistas PQ na época.
+
+O convite foi distribuído de forma **estratificada**, de modo que a composição
+dos convidados acompanhasse a da população de bolsistas PQ por grande área do
+conhecimento, sexo, região geográfica e categoria da bolsa.
+
+## Ponderação: existe, e não é o que está nos gráficos
+
+Uma amostra estratificada garante que os *convites* reproduzam a população —
+não que as *respostas* o façam. Neste survey a taxa de resposta cai ao longo
+do questionário: 96% no consentimento, 86% no bloco de opiniões sobre ciência
+e tecnologia, e 77% no bloco sociodemográfico, que vinha por último. **366
+pessoas abandonaram antes de declarar qualquer característica pessoal.**
+
+Se a desistência não foi igual entre estratos, as porcentagens simples ficam
+enviesadas. Por isso foram calculados **pesos de pós-estratificação**: cada
+respondente recebe um peso para que a distribuição da amostra por grande área,
+sexo, região e categoria da bolsa reproduza a da população de bolsistas PQ.
+
+::: {.callout-important appearance="simple"}
+**Os gráficos deste site mostram percentuais brutos, não ponderados.** O
+percentual ponderado está publicado junto com os agregados, em
+`marginais[…].pct_ponderado`, e pode ser conferido a qualquer momento.
+
+A razão é o tamanho do efeito: a diferença média entre a estimativa bruta e a
+ponderada é de **0,41 ponto percentual**, e a maior de **0,72**. Nenhuma
+leitura do site muda. Exibir o número bruto mantém o *n* do gráfico igual à
+contagem da tabela de contingência logo abaixo dele — se os gráficos fossem
+ponderados, os 441 respondentes não ponderáveis sumiriam das marginais e não
+das tabelas, e cada página precisaria explicar por que dois números que
+deveriam bater não batem.
+:::
+
+### Como os pesos foram construídos
+
+Pós-estratificação sobre células conjuntas (grande área × sexo, categoria da
+bolsa × sexo, região × sexo), por ajuste proporcional iterativo. As margens vêm
+das Tabelas 2 a 5 da dissertação (PEREIRA, 2023, p. 74-76), que descrevem as
+**15.835 bolsas PQ vigentes em agosto de 2022** — a mesma base fornecida pelo
+CNPq (COCHS/CGCHS/DEHS) para o envio dos convites. Os pesos resultantes vão de
+**0,54 a 2,21**.
+
+Duas observações sobre a construção das margens. A categoria "Outra" da
+Tabela 2 (350 bolsas, 2,2% da população) não existe no questionário e foi
+excluída, o que equivale a supor que esses bolsistas se distribuem por nível e
+região como os demais. E as três tabelas implicavam percentuais de mulheres
+ligeiramente diferentes entre si (35,235%, 35,179% e 35,198%), por
+arredondamento a uma casa decimal; foram reconciliadas para a média das três,
+com ajuste máximo de 0,91 bolsa em 15.485.
+
+As margens são de agosto de 2022 e a coleta ocorreu entre janeiro e março de
+2023. O quadro de bolsistas PQ muda devagar, mas a defasagem de alguns meses
+existe e é assumida aqui.
+
+### O que a ponderação muda, e o que não muda
+
+- **Muito pouco, e isso é um bom resultado.** A amostra que respondeu já era
+  bastante próxima da população. O maior desvio é a grande área: Ciências
+  Agrárias estavam sub-representadas em 2,8 pontos percentuais e Engenharias
+  em 2,3, enquanto Ciências Exatas e da Terra e Ciências da Saúde apareciam
+  sobrerrepresentadas em cerca de 1,7 ponto cada. Por sexo o desvio é de apenas
+  0,5 ponto (35,7% de mulheres na amostra contra 35,2% na população). Os grupos
+  que mais precisaram de correção foram os menores: região Norte (peso médio
+  1,25) e bolsistas Sênior (peso médio 1,39).
+- **Tamanho de amostra.** Com pesos, o número de respostas deixa de descrever
+  a precisão. O **n efetivo** é de
+  **<span data-pq-num="meta.n_efetivo"></span>** dos
+  <span data-pq-num="meta.n_ponderavel"></span> casos ponderáveis, com efeito
+  de desenho de **<span data-pq-num="meta.deff" data-casas="3"></span>** — a
+  ponderação custou o equivalente a descartar 53 respondentes.
+- **Os 366 que não declararam nenhuma característica** não podem receber peso
+  e ficam fora de qualquer estimativa ponderada (junto com 75 casos de resposta
+  parcial, restam <span data-pq-num="meta.n_ponderavel"></span> ponderáveis dos
+  <span data-pq-num="meta.n_total"></span>). Eles são representados pelos
+  demais apenas sob a hipótese de que, dentro de cada estrato, quem abandonou
+  se parece com quem ficou. Isso é uma hipótese assumida, não um resultado
+  verificado.
+- **A ponderação corrige as margens, não todo o viés.** Um bolsista mais
+  engajado com divulgação científica pode ter sido mais propenso a responder a
+  um questionário sobre divulgação científica, e nenhuma das quatro variáveis
+  de estratificação captura isso. Os números devem ser lidos como o retrato de
+  quem respondeu, ajustado ao perfil demográfico da população.
+
+## Os testes estatísticos
+
+Cada cruzamento traz três números:
+
+| Número | O que responde |
+|---|---|
+| **V de Cramér** | Quão forte é a associação (0 a 1). É o número que importa. |
+| **valor de *p*** | Se a associação é distinguível de zero. Com ~1.500 respondentes, quase sempre é. |
+| **n** | Quantas pessoas responderam às duas perguntas. |
+
+O V de Cramér usa a correção de viés de Bergsma (2013); o *p* vem do teste
+qui-quadrado de independência.
+
+### Correção para testes múltiplos
+
+O site realiza **<span data-pq-num="meta.n_cruzamentos"></span> testes**. Sem
+nenhuma correção, algumas dezenas apareceriam como "significativas" por puro
+acaso. O ajuste é feito pelo método de **Benjamini–Hochberg (FDR)**.
+
+A correção é aplicada **por bloco temático**: cada conjunto de perguntas do
+questionário (as 15 atividades, as 6 afirmações sobre riscos, as 13
+motivações…) é corrigido pelo número de testes que ele de fato realiza contra
+as 11 variáveis sociodemográficas. É a família de comparações que corresponde
+a uma pergunta de pesquisa.
+
+Para quem prefere a leitura mais conservadora, os dois números estão aqui:
+
+|  | Cruzamentos significativos (α = 0,05) |
+|---|---|
+| Sem nenhuma correção | <span data-pq-num="meta.n_significativos_sem_correcao"></span> |
+| FDR por bloco temático (o que o site usa) | <span data-pq-num="meta.n_significativos"></span> |
+| FDR global, sobre todos os testes | <span data-pq-num="meta.n_significativos_fdr_global"></span> |
+
+O FDR global sair ligeiramente *maior* que o por bloco não é erro: o
+procedimento de Benjamini–Hochberg é adaptativo, e juntar blocos com muitos
+sinais fortes a blocos com poucos abaixa o limiar para todo mundo. Os dois
+controlam a mesma taxa de falsas descobertas, sobre conjuntos diferentes.
+
+### A advertência que importa
+
+::: {.callout-warning appearance="simple"}
+**Significativo quase nunca quer dizer importante aqui.**
+
+No bloco de atividades de divulgação são
+<span data-pq-num="resumo_blocos.adc1.n_testes"></span> testes:
+<span data-pq-num="resumo_blocos.adc1.sem_correcao"></span> significativos sem
+correção, <span data-pq-num="resumo_blocos.adc1.apos_fdr"></span> depois dela.
+Desses, **<span data-pq-num="resumo_blocos.adc1.apos_fdr_desprezivel"></span>
+têm tamanho de efeito desprezível** (V < 0,10), e a associação mais forte do
+bloco chega a V =
+<span data-pq-num="resumo_blocos.adc1.v_maximo" data-casas="2"></span>.
+
+Ou seja: as práticas de divulgação científica variam pouco entre perfis
+sociodemográficos. A dimensão que mais diferencia os cientistas é a **grande
+área do conhecimento**. Com n ≈ 1.500, o valor de *p* praticamente não
+discrimina — é o V de Cramér que responde à pergunta que interessa.
+:::
+
+## Tamanhos de efeito {#tamanhos-de-efeito}
+
+Todos os <span data-pq-num="meta.n_cruzamentos"></span> cruzamentos do site em
+uma tela só, ordenados por V de Cramér.
+
+Esta tabela existe para contrapor a afordância do resto do site. Navegar por
+mil mosaicos até encontrar um vermelho é exatamente o comportamento que a
+correção de FDR **não** protege: ela controla a taxa de falsas descobertas
+sobre os testes calculados, não sobre a busca visual de quem navega. Ver a
+distribuição inteira de uma vez torna imediato o que a navegação esconde — a
+massa está perto de zero.
+
+::: {data-pq="efeitos"}
+:::
+
+As linhas esmaecidas não são significativas após a correção; continuam na
+tabela e no CSV de propósito, porque um resultado nulo é um resultado.
+
+## Como as tabelas e os gráficos são construídos
+
+- **Ausentes.** Cada cruzamento usa apenas quem respondeu às duas perguntas.
+  O número de excluídos aparece ao lado do *n*, em cada gráfico.
+- **Ordem das categorias.** Segue a ordem do questionário, não a alfabética
+  nem a de frequência. Duas variáveis (`octs1`, `odc2`) aparecem invertidas em
+  relação ao arquivo de metadados, de propósito: assim todas as escalas do
+  site correm na mesma direção.
+- **Escala de cor dos mosaicos.** Fixa de
+  −<span data-pq-num="meta.escala_residuo"></span> a
+  +<span data-pq-num="meta.escala_residuo"></span> em todos os gráficos, com
+  banda neutra para resíduos entre
+  −<span data-pq-num="meta.limiar_neutro"></span> e
+  +<span data-pq-num="meta.limiar_neutro"></span>. Sem a escala fixa, cada
+  gráfico se renormalizaria pelo próprio máximo e um vermelho forte em uma
+  página significaria uma magnitude diferente de um vermelho forte em outra.
+- **Validade do qui-quadrado.** Quando mais de 20% das células têm frequência
+  esperada abaixo de 5, o gráfico avisa: o teste perde confiabilidade nessa
+  situação, comum nos cruzamentos com categorias pequenas (cor/raça, religião).
+- **Cor das barras.** As escalas ordinais usam uma rampa de um só tom, e não a
+  barra divergente que seria o padrão para escalas de concordância. O motivo é
+  que o vermelho e o azul já têm um significado neste site — resíduo acima e
+  abaixo do esperado —, e usá-los também para "concorda" e "discorda" na mesma
+  página tornaria as duas leituras indistinguíveis.
+
+## Leitura dos resultados
+
+Um resumo descritivo dos números, com as advertências de leitura, está na
+página de [resultados](achados.qmd). A análise interpretativa está publicada
+em Pereira, Castelfranchi e Massarani (2025).
+
+## Controle de divulgação {#controle-de-divulgacao}
+
+A população de bolsistas PQ é **pública e enumerável** — o CNPq divulga a
+lista. Isso muda o cálculo de risco de um cruzamento em que as duas variáveis
+são atributos protegidos: uma célula de uma pessoa em cor/raça × religião
+revela uma combinação que, somada a conhecimento externo, pode apontar para
+alguém. Os cruzamentos de atividade × característica não têm esse problema —
+quantas palestras alguém deu não é atributo protegido.
+
+Por isso, **categorias raras de quatro variáveis são agregadas antes de
+qualquer cruzamento**: escolaridade da mãe, cor ou raça, religião e orientação
+política. Agregar, e não suprimir células depois, mantém o fechamento das
+tabelas — os totais continuam batendo — e dispensa o leitor de entender uma
+regra de supressão. Os agrupamentos seguem convenções da área onde elas
+existem: "preta ou parda" é o padrão da literatura brasileira sobre
+desigualdade racial.
+
+O efeito: as células com 1 a 4 pessoas nos 55 pares sociodemográficos caem de
+**355 para 43**.
+
+A distribuição univariada completa de cada uma das quatro continua publicada,
+sem agregação, na [página de perfil](perfil.qmd) e em
+`marginais_detalhadas` no `base.json` — a contagem de uma variável sozinha não
+revela combinação alguma.
+
+::: {.callout-note appearance="simple"}
+**Isto mudou dois números publicados.** Antes da agregação, o bloco de
+atividades tinha 60 cruzamentos significativos sem correção e 41 após o FDR —
+são os números do `dados/tabela_associacoes.csv` comitado e da versão anterior
+desta nota. Com as categorias agregadas são
+<span data-pq-num="resumo_blocos.adc1.sem_correcao"></span> e
+<span data-pq-num="resumo_blocos.adc1.apos_fdr"></span>: colapsar categorias
+reduz os graus de liberdade e três cruzamentos deixam de cruzar o limiar. O V
+de Cramér mediano e o máximo não se movem, que é o esperado — a agregação junta
+células raras, não altera a estrutura da associação.
+:::
+
+## Privacidade
+
+Este site é estático e consome **apenas agregados**: contagens de células de
+tabelas de contingência bivariadas e estatísticas derivadas delas. Os
+microdados não são publicados aqui e não estão no repositório do site.
+
+## Reprodutibilidade
+
+- Código do processamento e do site:
+  <https://github.com/marcelo-pereira-pcst/dashboardpq>
+- Questionário completo: [download em PDF](questionario.pdf)
+- Base tratada e dicionário de variáveis: depósito com DOI (em preparação)
+
+Os agregados que alimentam o site podem ser lidos diretamente:
+[`dados/base.json`](dados/base.json) traz metadados, variáveis e marginais;
+os arquivos `dados/cruz-*.json` trazem os cruzamentos de cada seção.

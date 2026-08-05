@@ -1,0 +1,79 @@
+project:
+  type: website
+  output-dir: ../docs
+  # `docs/` na raiz é o que o GitHub Pages serve sem precisar de Action.
+  # Se um dia migrar para deploy por workflow, troque para `_site` e ajuste
+  # o .gitignore — hoje o build é comitado de propósito, para que o site
+  # publicado seja sempre exatamente o que está no repositório.
+  resources:
+    - .nojekyll
+    - dados/
+    - vendor/
+    - img/
+    - questionario.pdf
+
+website:
+  title: "Cientistas e divulgação científica"
+  description: >-
+    Resultados de um survey com 1.934 bolsistas de Produtividade em Pesquisa
+    (PQ) do CNPq sobre percepções e práticas de divulgação científica.
+  site-url: https://marcelo-pereira-pcst.github.io/dashboardpq/
+  favicon: img/favicon.png
+  open-graph: true
+  navbar:
+    background: light
+    pinned: true
+    logo: img/favicon.png
+    left:
+      - href: index.qmd
+        text: Início
+      - href: achados.qmd
+        text: Resultados
+      - href: atividades.qmd
+        text: Atividades
+      - href: opinioes-ct.qmd
+        text: Opiniões sobre C&T
+      - href: opinioes-dc.qmd
+        text: Opiniões sobre divulgação
+      - href: motivacoes.qmd
+        text: Motivações e obstáculos
+      - href: perfil.qmd
+        text: Perfil
+    right:
+      - href: metodologia.qmd
+        text: Metodologia
+  page-footer:
+    background: light
+    left: >-
+      Dashboard de [Marcelo Pereira](https://marcelo-pereira-pcst.github.io/).
+      Dados de PEREIRA, M. *Ciência, sociedade, divulgação científica: a visão
+      dos cientistas*. Dissertação, UFMG, 2023.
+      [hdl.handle.net/1843/55328](http://hdl.handle.net/1843/55328)
+    right: >-
+      Site estático: todos os números são pré-calculados no build.
+      Nenhum microdado é publicado aqui.
+
+lang: pt
+
+format:
+  html:
+    theme:
+      - cosmo
+      - assets/tema.scss
+    css: assets/dashboard.css
+    toc: false
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    include-in-header:
+      - text: |
+          <script src="vendor/plotly.min.js"
+                  onerror="this.onerror=null;
+                           var s=document.createElement('script');
+                           s.src='https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.35.2/plotly.min.js';
+                           s.crossOrigin='anonymous';
+                           s.onerror=function(){window.__plotlyFalhou=true;};
+                           document.head.appendChild(s);"></script>
+    include-after-body:
+      - text: |
+          <script src="assets/dashboard.js"></script>

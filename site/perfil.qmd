@@ -1,0 +1,57 @@
+---
+title: "Perfil sociodemográfico"
+subtitle: "Quem respondeu, e como as próprias características se cruzam entre si."
+---
+
+```{=html}
+<script>document.body.dataset.pqSecao = "perfil";</script>
+```
+
+::: {.panel-tabset}
+
+## Distribuições
+
+As <span data-pq-num="ordem_socio.length"></span> características usadas em
+todos os cruzamentos do site. Os percentuais são **brutos**: o percentual
+ponderado por pós-estratificação está publicado junto com os agregados e
+descrito na [nota metodológica](metodologia.qmd), mas os gráficos mostram o
+que a amostra respondeu.
+
+::: {data-pq="perfil"}
+:::
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Categorias agregadas, e as contagens completas
+
+Quatro variáveis têm categorias raras agrupadas antes de qualquer cruzamento —
+escolaridade da mãe, cor ou raça, religião e orientação política. O motivo está
+na [nota metodológica](metodologia.qmd#controle-de-divulgacao): a lista de
+bolsistas PQ é pública, e num cruzamento em que as duas variáveis são atributos
+protegidos uma célula de uma pessoa pode apontar para alguém.
+
+A contagem de uma variável **sozinha** não revela combinação nenhuma, então ela
+continua publicada inteira:
+
+::: {data-pq="detalhadas"}
+:::
+:::
+
+## Cruzamentos
+
+Aqui as variáveis sociodemográficas se cruzam entre si — são
+<span data-pq-num="resumo_blocos.socio.n_testes"></span> pares distintos, uma
+família de testes própria.
+
+Duas ressalvas de leitura. A associação mais forte de todo o site aparece
+neste bloco (V = <span data-pq-num="resumo_blocos.socio.v_maximo"
+data-casas="2"></span>), e não é uma descoberta: religião e importância da
+religião medem quase a mesma coisa. E várias destas associações são estruturais
+— nível da bolsa e tempo de vínculo crescem juntos porque a carreira funciona
+assim.
+
+::: {data-pq="mosaico" data-bloco="socio"}
+:::
+
+{{< include _explicacao-mosaico.qmd >}}
+
+:::

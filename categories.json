@@ -1,0 +1,1217 @@
+{
+  "CE01": [],
+  "CE02": [
+    "Feminino",
+    "Masculino"
+  ],
+  "CE03": [
+    "Não frequentou escola",
+    "Ensino Fundamental Incompleto",
+    "Ensino Fundamental",
+    "Ensino Médio Incompleto",
+    "Ensino Médio",
+    "Ensino Superior Incompleto",
+    "Ensino Superior"
+  ],
+  "CE04": [
+    "Branca",
+    "Preta",
+    "Amarela",
+    "Parda",
+    "Indígena"
+  ],
+  "CE05": [
+    "Cristã católica",
+    "Cristã evangélica Pentecostal e Neopentecostal",
+    "Cristã Protestantes históricas",
+    "Espírita",
+    "Matrizes africanas",
+    "Religiões Orientais",
+    "Judaísmo",
+    "Islamismo",
+    "Tradições indígenas",
+    "Ateu ou agnóstico",
+    "Não tenho religião",
+    "Outros"
+  ],
+  "CE06": [
+    "Muito importante",
+    "Importante",
+    "Pouco importante",
+    "Nada importante"
+  ],
+  "CE07": [
+    "De centro",
+    "De esquerda",
+    "Liberal",
+    "Conservador",
+    "De direita",
+    "Nenhuma dessas"
+  ],
+  "CE08": [
+    "Sênior",
+    "1A",
+    "1B",
+    "1C",
+    "1D",
+    "2"
+  ],
+  "CE09": [],
+  "CE10": [
+    "ciência aplicada",
+    "ciência básica",
+    "tanto ciência básica como aplicada",
+    "não se aplica"
+  ],
+  "CE11": [
+    "Ciências Exatas e da Terra",
+    "Ciências Biológicas",
+    "Engenharias",
+    "Ciências da Saúde",
+    "Ciências Agrárias",
+    "Ciências Sociais Aplicadas",
+    "Ciências Humanas",
+    "Linguística, Letras e Artes"
+  ],
+  "CE12agrarias": [
+    "Agronomia",
+    "Recursos Florestais e Engenharia Florestal",
+    "Engenharia Agrícola",
+    "Zootecnia",
+    "Medicina Veterinária",
+    "Recursos Pesqueiros e Engenharia de Pesca",
+    "Ciência e Tecnologia de Alimentos"
+  ],
+  "CE12biologicas": [
+    "Biologia Geral",
+    "Genética",
+    "Botânica",
+    "Zoologia",
+    "Ecologia",
+    "Morfologia",
+    "Fisiologia",
+    "Bioquímica",
+    "Biofísica",
+    "Imunologia",
+    "Microbiologia",
+    "Parasitologia"
+  ],
+  "CE12engenharias": [
+    "Engenharia Civil",
+    "Engenharia de Minas",
+    "Engenharia de Materiais e Metalúrgica",
+    "Engenharia Elétrica",
+    "Engenharia Mecânica",
+    "Engenharia Química",
+    "Engenharia Sanitária",
+    "Engenharia de Produção",
+    "Engenharia Nuclear",
+    "Engenharia de Transportes",
+    "Engenharia Naval e Oceânica",
+    "Engenharia Aeroespacial",
+    "Engenharia Biomédica"
+  ],
+  "CE12exatas": [
+    "Matemática",
+    "Probabilidade e Estatística",
+    "Ciência da Computação",
+    "Astronomia",
+    "Física",
+    "Química",
+    "Geociências",
+    "Oceanografia"
+  ],
+  "CE12humanas": [
+    "Filosofia",
+    "Sociologia",
+    "Antropologia",
+    "Arqueologia",
+    "História",
+    "Geografia",
+    "Psicologia",
+    "Educação",
+    "Ciência Política",
+    "Teologia"
+  ],
+  "CE12letrasartes": [
+    "Linguística",
+    "Letras",
+    "Artes"
+  ],
+  "CE12saude": [
+    "Medicina",
+    "Odontologia",
+    "Farmácia",
+    "Enfermagem",
+    "Nutrição",
+    "Saúde coletiva",
+    "Fonoaudiologia",
+    "Fisioterapia e Terapia Ocupacional",
+    "Educação Física"
+  ],
+  "CE12sociaisaplicadas": [
+    "Direito",
+    "Administração",
+    "Economia",
+    "Arquitetura e Urbanismo",
+    "Planejamento Urbano e Regional",
+    "Demografia",
+    "Ciência da Informação",
+    "Museologia",
+    "Comunicação",
+    "Serviço Social",
+    "Economia Doméstica",
+    "Desenho Industrial",
+    "Turismo"
+  ],
+  "CE13": [
+    "Norte",
+    "Nordeste",
+    "Centro-Oeste",
+    "Sudeste",
+    "Sul"
+  ],
+  "CE14": [],
+  "CE15": [],
+  "HAB01[SQ001]": [
+    "Frequentemente",
+    "Às vezes",
+    "Raramente",
+    "Nunca",
+    "Não sei"
+  ],
+  "HAB01[SQ002]": [
+    "Frequentemente",
+    "Às vezes",
+    "Raramente",
+    "Nunca",
+    "Não sei"
+  ],
+  "HAB01[SQ003]": [
+    "Frequentemente",
+    "Às vezes",
+    "Raramente",
+    "Nunca",
+    "Não sei"
+  ],
+  "HAB01[SQ004]": [
+    "Frequentemente",
+    "Às vezes",
+    "Raramente",
+    "Nunca",
+    "Não sei"
+  ],
+  "HAB01[SQ005]": [
+    "Frequentemente",
+    "Às vezes",
+    "Raramente",
+    "Nunca",
+    "Não sei"
+  ],
+  "HAB01[SQ006]": [
+    "Frequentemente",
+    "Às vezes",
+    "Raramente",
+    "Nunca",
+    "Não sei"
+  ],
+  "HAB01[SQ007]": [
+    "Frequentemente",
+    "Às vezes",
+    "Raramente",
+    "Nunca",
+    "Não sei"
+  ],
+  "HAB01[SQ008]": [
+    "Frequentemente",
+    "Às vezes",
+    "Raramente",
+    "Nunca",
+    "Não sei"
+  ],
+  "MO01[SQ001]": [
+    "Para mim, não há motivações"
+  ],
+  "MO01[SQ002]": [
+    "Para mim, não há motivações"
+  ],
+  "MO01[SQ003]": [
+    "Para mim, não há motivações"
+  ],
+  "MO01[SQ004]": [
+    "Para mim, não há motivações"
+  ],
+  "MO01[SQ005]": [
+    "Para mim, não há motivações"
+  ],
+  "MO01[SQ006]": [
+    "Para mim, não há motivações"
+  ],
+  "MO01[SQ007]": [
+    "Para mim, não há motivações"
+  ],
+  "MO01[SQ008]": [
+    "Para mim, não há motivações"
+  ],
+  "MO01[SQ009]": [
+    "Para mim, não há motivações"
+  ],
+  "MO01[SQ010]": [
+    "Para mim, não há motivações"
+  ],
+  "MO01[SQ011]": [
+    "Para mim, não há motivações"
+  ],
+  "MO01[SQ012]": [
+    "Para mim, não há motivações"
+  ],
+  "MO01[SQ013]": [
+    "Para mim, não há motivações"
+  ],
+  "MO02[SQ001]": [
+    "Para mim não há obstáculos"
+  ],
+  "MO02[SQ002]": [
+    "Para mim não há obstáculos"
+  ],
+  "MO02[SQ003]": [
+    "Para mim não há obstáculos"
+  ],
+  "MO02[SQ004]": [
+    "Para mim não há obstáculos"
+  ],
+  "MO02[SQ005]": [
+    "Para mim não há obstáculos"
+  ],
+  "MO02[SQ006]": [
+    "Para mim não há obstáculos"
+  ],
+  "MO02[SQ007]": [
+    "Para mim não há obstáculos"
+  ],
+  "MO02[SQ008]": [
+    "Para mim não há obstáculos"
+  ],
+  "MO02[SQ009]": [
+    "Para mim não há obstáculos"
+  ],
+  "MO02[SQ010]": [
+    "Para mim não há obstáculos"
+  ],
+  "MO02[SQ011]": [
+    "Para mim não há obstáculos"
+  ],
+  "MO02[SQ012]": [
+    "Para mim não há obstáculos"
+  ],
+  "MO03[SQ001]": [
+    "Inscrição de tarefas de divulgação científica no relatório de atividades"
+  ],
+  "MO03[SQ002]": [
+    "Inscrição de tarefas de divulgação científica no relatório de atividades"
+  ],
+  "MO03[SQ003]": [
+    "Inscrição de tarefas de divulgação científica no relatório de atividades"
+  ],
+  "MO03[SQ004]": [
+    "Inscrição de tarefas de divulgação científica no relatório de atividades"
+  ],
+  "MO03[SQ005]": [
+    "Inscrição de tarefas de divulgação científica no relatório de atividades"
+  ],
+  "MO03[SQ006]": [
+    "Inscrição de tarefas de divulgação científica no relatório de atividades"
+  ],
+  "MO03[SQ007]": [
+    "Inscrição de tarefas de divulgação científica no relatório de atividades"
+  ],
+  "MO03[SQ008]": [
+    "Inscrição de tarefas de divulgação científica no relatório de atividades"
+  ],
+  "MO04[SQ001]": [
+    "Não conheço",
+    "Conheço mas não participei",
+    "Participei como aluno",
+    "Participei como docente"
+  ],
+  "MO04[SQ002]": [
+    "Não conheço",
+    "Conheço mas não participei",
+    "Participei como aluno",
+    "Participei como docente"
+  ],
+  "MO04[SQ003]": [
+    "Não conheço",
+    "Conheço mas não participei",
+    "Participei como aluno",
+    "Participei como docente"
+  ],
+  "MO04[SQ004]": [
+    "Não conheço",
+    "Conheço mas não participei",
+    "Participei como aluno",
+    "Participei como docente"
+  ],
+  "MO05": [
+    "Concordo totalmente",
+    "Concordo parcialmente",
+    "Discordo parcialmente",
+    "Discordo totalmente",
+    "Não sei"
+  ],
+  "MO06[SQ001]": [
+    "Não conheço",
+    "Conheço mas não participei",
+    "Participei como aluno",
+    "Participei como docente"
+  ],
+  "MO06[SQ002]": [
+    "Não conheço",
+    "Conheço mas não participei",
+    "Participei como aluno",
+    "Participei como docente"
+  ],
+  "MO06[SQ003]": [
+    "Não conheço",
+    "Conheço mas não participei",
+    "Participei como aluno",
+    "Participei como docente"
+  ],
+  "MO06[SQ004]": [
+    "Não conheço",
+    "Conheço mas não participei",
+    "Participei como aluno",
+    "Participei como docente"
+  ],
+  "MO07": [
+    "Sim",
+    "Não"
+  ],
+  "TI01[SQ001]": [
+    "Muito Interessado",
+    "Interessado",
+    "Pouco Interessado",
+    "Nada Interessado",
+    "Não Sei"
+  ],
+  "TI01[SQ002]": [
+    "Muito Interessado",
+    "Interessado",
+    "Pouco Interessado",
+    "Nada Interessado",
+    "Não Sei"
+  ],
+  "TI01[SQ003]": [
+    "Muito Interessado",
+    "Interessado",
+    "Pouco Interessado",
+    "Nada Interessado",
+    "Não Sei"
+  ],
+  "TI01[SQ004]": [
+    "Muito Interessado",
+    "Interessado",
+    "Pouco Interessado",
+    "Nada Interessado",
+    "Não Sei"
+  ],
+  "TI01[SQ005]": [
+    "Muito Interessado",
+    "Interessado",
+    "Pouco Interessado",
+    "Nada Interessado",
+    "Não Sei"
+  ],
+  "TI01[SQ006]": [
+    "Muito Interessado",
+    "Interessado",
+    "Pouco Interessado",
+    "Nada Interessado",
+    "Não Sei"
+  ],
+  "TI01[SQ007]": [
+    "Muito Interessado",
+    "Interessado",
+    "Pouco Interessado",
+    "Nada Interessado",
+    "Não Sei"
+  ],
+  "TI01[SQ008]": [
+    "Muito Interessado",
+    "Interessado",
+    "Pouco Interessado",
+    "Nada Interessado",
+    "Não Sei"
+  ],
+  "TI02[SQ001]": [
+    "Sim",
+    "Não sei",
+    "Não"
+  ],
+  "TI02[SQ002]": [
+    "Sim",
+    "Não sei",
+    "Não"
+  ],
+  "TI02[SQ003]": [
+    "Sim",
+    "Não sei",
+    "Não"
+  ],
+  "TI02[SQ004]": [
+    "Sim",
+    "Não sei",
+    "Não"
+  ],
+  "TI02[SQ005]": [
+    "Sim",
+    "Não sei",
+    "Não"
+  ],
+  "TI02[SQ006]": [
+    "Sim",
+    "Não sei",
+    "Não"
+  ],
+  "TI02[SQ007]": [
+    "Sim",
+    "Não sei",
+    "Não"
+  ],
+  "TI02[SQ008]": [
+    "Sim",
+    "Não sei",
+    "Não"
+  ],
+  "TI02[SQ009]": [
+    "Sim",
+    "Não sei",
+    "Não"
+  ],
+  "VAL01[SQ001]": [
+    "Pertenço e frequento",
+    "Pertenço, mas não frequento muito",
+    "Não pertenço",
+    "Não sei"
+  ],
+  "VAL01[SQ002]": [
+    "Pertenço e frequento",
+    "Pertenço, mas não frequento muito",
+    "Não pertenço",
+    "Não sei"
+  ],
+  "VAL01[SQ003]": [
+    "Pertenço e frequento",
+    "Pertenço, mas não frequento muito",
+    "Não pertenço",
+    "Não sei"
+  ],
+  "VAL01[SQ004]": [
+    "Pertenço e frequento",
+    "Pertenço, mas não frequento muito",
+    "Não pertenço",
+    "Não sei"
+  ],
+  "VAL01[SQ005]": [
+    "Pertenço e frequento",
+    "Pertenço, mas não frequento muito",
+    "Não pertenço",
+    "Não sei"
+  ],
+  "VAL01[SQ006]": [
+    "Pertenço e frequento",
+    "Pertenço, mas não frequento muito",
+    "Não pertenço",
+    "Não sei"
+  ],
+  "VAL01[SQ007]": [
+    "Pertenço e frequento",
+    "Pertenço, mas não frequento muito",
+    "Não pertenço",
+    "Não sei"
+  ],
+  "VAL01[SQ008]": [
+    "Pertenço e frequento",
+    "Pertenço, mas não frequento muito",
+    "Não pertenço",
+    "Não sei"
+  ],
+  "VAL01[SQ009]": [
+    "Pertenço e frequento",
+    "Pertenço, mas não frequento muito",
+    "Não pertenço",
+    "Não sei"
+  ],
+  "VAL01[SQ010]": [
+    "Pertenço e frequento",
+    "Pertenço, mas não frequento muito",
+    "Não pertenço",
+    "Não sei"
+  ],
+  "VAL02[SQ001]": [
+    "Sim, já fiz",
+    "Não fiz, mas poderia fazer",
+    "Não fiz, e não faria de jeito nenhum",
+    "Não sei"
+  ],
+  "VAL02[SQ002]": [
+    "Sim, já fiz",
+    "Não fiz, mas poderia fazer",
+    "Não fiz, e não faria de jeito nenhum",
+    "Não sei"
+  ],
+  "VAL02[SQ003]": [
+    "Sim, já fiz",
+    "Não fiz, mas poderia fazer",
+    "Não fiz, e não faria de jeito nenhum",
+    "Não sei"
+  ],
+  "VAL02[SQ004]": [
+    "Sim, já fiz",
+    "Não fiz, mas poderia fazer",
+    "Não fiz, e não faria de jeito nenhum",
+    "Não sei"
+  ],
+  "VAL02[SQ005]": [
+    "Sim, já fiz",
+    "Não fiz, mas poderia fazer",
+    "Não fiz, e não faria de jeito nenhum",
+    "Não sei"
+  ],
+  "adc07": [
+    "Sim",
+    "Não"
+  ],
+  "adc1[SQ001]": [
+    "Nenhuma vez",
+    "1 vez",
+    "2 vezes",
+    "3 vezes",
+    "4 vezes",
+    "5 vezes",
+    "mais de 5 vezes"
+  ],
+  "adc1[SQ002]": [
+    "Nenhuma vez",
+    "1 vez",
+    "2 vezes",
+    "3 vezes",
+    "4 vezes",
+    "5 vezes",
+    "mais de 5 vezes"
+  ],
+  "adc1[SQ003]": [
+    "Nenhuma vez",
+    "1 vez",
+    "2 vezes",
+    "3 vezes",
+    "4 vezes",
+    "5 vezes",
+    "mais de 5 vezes"
+  ],
+  "adc1[SQ004]": [
+    "Nenhuma vez",
+    "1 vez",
+    "2 vezes",
+    "3 vezes",
+    "4 vezes",
+    "5 vezes",
+    "mais de 5 vezes"
+  ],
+  "adc1[SQ005]": [
+    "Nenhuma vez",
+    "1 vez",
+    "2 vezes",
+    "3 vezes",
+    "4 vezes",
+    "5 vezes",
+    "mais de 5 vezes"
+  ],
+  "adc1[SQ006]": [
+    "Nenhuma vez",
+    "1 vez",
+    "2 vezes",
+    "3 vezes",
+    "4 vezes",
+    "5 vezes",
+    "mais de 5 vezes"
+  ],
+  "adc1[SQ007]": [
+    "Nenhuma vez",
+    "1 vez",
+    "2 vezes",
+    "3 vezes",
+    "4 vezes",
+    "5 vezes",
+    "mais de 5 vezes"
+  ],
+  "adc1[SQ008]": [
+    "Nenhuma vez",
+    "1 vez",
+    "2 vezes",
+    "3 vezes",
+    "4 vezes",
+    "5 vezes",
+    "mais de 5 vezes"
+  ],
+  "adc1[SQ009]": [
+    "Nenhuma vez",
+    "1 vez",
+    "2 vezes",
+    "3 vezes",
+    "4 vezes",
+    "5 vezes",
+    "mais de 5 vezes"
+  ],
+  "adc1[SQ010]": [
+    "Nenhuma vez",
+    "1 vez",
+    "2 vezes",
+    "3 vezes",
+    "4 vezes",
+    "5 vezes",
+    "mais de 5 vezes"
+  ],
+  "adc1[SQ011]": [
+    "Nenhuma vez",
+    "1 vez",
+    "2 vezes",
+    "3 vezes",
+    "4 vezes",
+    "5 vezes",
+    "mais de 5 vezes"
+  ],
+  "adc1[SQ012]": [
+    "Nenhuma vez",
+    "1 vez",
+    "2 vezes",
+    "3 vezes",
+    "4 vezes",
+    "5 vezes",
+    "mais de 5 vezes"
+  ],
+  "adc1[SQ013]": [
+    "Nenhuma vez",
+    "1 vez",
+    "2 vezes",
+    "3 vezes",
+    "4 vezes",
+    "5 vezes",
+    "mais de 5 vezes"
+  ],
+  "adc1[SQ014]": [
+    "Nenhuma vez",
+    "1 vez",
+    "2 vezes",
+    "3 vezes",
+    "4 vezes",
+    "5 vezes",
+    "mais de 5 vezes"
+  ],
+  "adc1[SQ015]": [
+    "Nenhuma vez",
+    "1 vez",
+    "2 vezes",
+    "3 vezes",
+    "4 vezes",
+    "5 vezes",
+    "mais de 5 vezes"
+  ],
+  "adc2": [
+    "Em geral sim",
+    "Frequentemente",
+    "Raramente",
+    "Em geral, não",
+    "Não se aplica a mim"
+  ],
+  "adc3[SQ001]": [
+    "Muito importante",
+    "Importante",
+    "Pouco importante",
+    "Nada importante",
+    "Não sei"
+  ],
+  "adc3[SQ002]": [
+    "Muito importante",
+    "Importante",
+    "Pouco importante",
+    "Nada importante",
+    "Não sei"
+  ],
+  "adc3[SQ003]": [
+    "Muito importante",
+    "Importante",
+    "Pouco importante",
+    "Nada importante",
+    "Não sei"
+  ],
+  "adc3[SQ004]": [
+    "Muito importante",
+    "Importante",
+    "Pouco importante",
+    "Nada importante",
+    "Não sei"
+  ],
+  "adc4": [],
+  "adc5": [],
+  "adc6[SQ001]": [
+    "Nunca",
+    "Raramente",
+    "Frequentemente",
+    "Não se aplica a mim"
+  ],
+  "adc6[SQ002]": [
+    "Nunca",
+    "Raramente",
+    "Frequentemente",
+    "Não se aplica a mim"
+  ],
+  "adc6[SQ003]": [
+    "Nunca",
+    "Raramente",
+    "Frequentemente",
+    "Não se aplica a mim"
+  ],
+  "adc8": [
+    "Sobre os resultados de sua pesquisa",
+    "Sobre o seu objeto de pesquisa, mas não necessariamente sobre os resultados da sua pesquisa",
+    "Sobre temas controversos de interesse público nos quais você tem alguma expertise."
+  ],
+  "consentimento": [
+    "Declaro que li os termos de meu consentimento e concordo em participar desta pesquisa"
+  ],
+  "hab2": [],
+  "hab3": [
+    "Nulo",
+    "Insuficiente",
+    "Razoável",
+    "Bom",
+    "Muito bom"
+  ],
+  "hab4": [
+    "Muito positivas/ de apoio à ciência",
+    "Positivas",
+    "Negativas",
+    "Muito negativas/ de hostilidade à ciência"
+  ],
+  "hab5[SQ001]": [
+    "Muito prejudicial",
+    "Prejudicial",
+    "Um pouco prejudicial",
+    "Não causa prejuízos",
+    "Irrelevante para a ciência"
+  ],
+  "hab5[SQ002]": [
+    "Muito prejudicial",
+    "Prejudicial",
+    "Um pouco prejudicial",
+    "Não causa prejuízos",
+    "Irrelevante para a ciência"
+  ],
+  "hab5[SQ003]": [
+    "Muito prejudicial",
+    "Prejudicial",
+    "Um pouco prejudicial",
+    "Não causa prejuízos",
+    "Irrelevante para a ciência"
+  ],
+  "hab5[SQ004]": [
+    "Muito prejudicial",
+    "Prejudicial",
+    "Um pouco prejudicial",
+    "Não causa prejuízos",
+    "Irrelevante para a ciência"
+  ],
+  "hab5[SQ005]": [
+    "Muito prejudicial",
+    "Prejudicial",
+    "Um pouco prejudicial",
+    "Não causa prejuízos",
+    "Irrelevante para a ciência"
+  ],
+  "hab5[SQ006]": [
+    "Muito prejudicial",
+    "Prejudicial",
+    "Um pouco prejudicial",
+    "Não causa prejuízos",
+    "Irrelevante para a ciência"
+  ],
+  "hab5[SQ007]": [
+    "Muito prejudicial",
+    "Prejudicial",
+    "Um pouco prejudicial",
+    "Não causa prejuízos",
+    "Irrelevante para a ciência"
+  ],
+  "hab5[SQ008]": [
+    "Muito prejudicial",
+    "Prejudicial",
+    "Um pouco prejudicial",
+    "Não causa prejuízos",
+    "Irrelevante para a ciência"
+  ],
+  "hab6[SQ001]": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10"
+  ],
+  "hab6[SQ002]": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10"
+  ],
+  "hab6[SQ003]": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10"
+  ],
+  "hab6[SQ004]": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10"
+  ],
+  "hab7[SQ001]": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10"
+  ],
+  "hab7[SQ002]": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10"
+  ],
+  "hab7[SQ003]": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10"
+  ],
+  "hab7[SQ004]": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10"
+  ],
+  "octs1": [
+    "Avançado",
+    "Intermediário",
+    "Atrasado"
+  ],
+  "octs2": [
+    "Muitos benefícios",
+    "Alguns benefícios",
+    "Poucos benefícios",
+    "Nenhum benefício"
+  ],
+  "octs3": [
+    "Muitos riscos",
+    "Alguns riscos",
+    "Poucos riscos",
+    "Nenhum risco"
+  ],
+  "octs4[SQ001]": [
+    "Concordo totalmente",
+    "Concordo em partes",
+    "Discordo em partes",
+    "Discordo totalmente",
+    "Não sei"
+  ],
+  "octs4[SQ002]": [
+    "Concordo totalmente",
+    "Concordo em partes",
+    "Discordo em partes",
+    "Discordo totalmente",
+    "Não sei"
+  ],
+  "octs4[SQ003]": [
+    "Concordo totalmente",
+    "Concordo em partes",
+    "Discordo em partes",
+    "Discordo totalmente",
+    "Não sei"
+  ],
+  "octs4[SQ004]": [
+    "Concordo totalmente",
+    "Concordo em partes",
+    "Discordo em partes",
+    "Discordo totalmente",
+    "Não sei"
+  ],
+  "octs5[SQ001]": [
+    "Concordo totalmente",
+    "Concordo em parte",
+    "Discordo em parte",
+    "Discordo totalmente",
+    "Não sei"
+  ],
+  "octs5[SQ002]": [
+    "Concordo totalmente",
+    "Concordo em parte",
+    "Discordo em parte",
+    "Discordo totalmente",
+    "Não sei"
+  ],
+  "octs5[SQ003]": [
+    "Concordo totalmente",
+    "Concordo em parte",
+    "Discordo em parte",
+    "Discordo totalmente",
+    "Não sei"
+  ],
+  "octs5[SQ004]": [
+    "Concordo totalmente",
+    "Concordo em parte",
+    "Discordo em parte",
+    "Discordo totalmente",
+    "Não sei"
+  ],
+  "octs5[SQ005]": [
+    "Concordo totalmente",
+    "Concordo em parte",
+    "Discordo em parte",
+    "Discordo totalmente",
+    "Não sei"
+  ],
+  "octs6[SQ001]": [
+    "Extremamente preocupado",
+    "Muito preocupado",
+    "Preocupado",
+    "Nada preocupado",
+    "Não sei"
+  ],
+  "octs6[SQ002]": [
+    "Extremamente preocupado",
+    "Muito preocupado",
+    "Preocupado",
+    "Nada preocupado",
+    "Não sei"
+  ],
+  "octs6[SQ003]": [
+    "Extremamente preocupado",
+    "Muito preocupado",
+    "Preocupado",
+    "Nada preocupado",
+    "Não sei"
+  ],
+  "octs6[SQ004]": [
+    "Extremamente preocupado",
+    "Muito preocupado",
+    "Preocupado",
+    "Nada preocupado",
+    "Não sei"
+  ],
+  "octs6[SQ005]": [
+    "Extremamente preocupado",
+    "Muito preocupado",
+    "Preocupado",
+    "Nada preocupado",
+    "Não sei"
+  ],
+  "octs6[SQ006]": [
+    "Extremamente preocupado",
+    "Muito preocupado",
+    "Preocupado",
+    "Nada preocupado",
+    "Não sei"
+  ],
+  "odc1[SQ001]": [
+    "Concordo totalmente",
+    "Concordo em parte",
+    "Discordo em parte",
+    "Discordo totalmente",
+    "Não sei"
+  ],
+  "odc1[SQ002]": [
+    "Concordo totalmente",
+    "Concordo em parte",
+    "Discordo em parte",
+    "Discordo totalmente",
+    "Não sei"
+  ],
+  "odc1[SQ003]": [
+    "Concordo totalmente",
+    "Concordo em parte",
+    "Discordo em parte",
+    "Discordo totalmente",
+    "Não sei"
+  ],
+  "odc1[SQ004]": [
+    "Concordo totalmente",
+    "Concordo em parte",
+    "Discordo em parte",
+    "Discordo totalmente",
+    "Não sei"
+  ],
+  "odc1[SQ005]": [
+    "Concordo totalmente",
+    "Concordo em parte",
+    "Discordo em parte",
+    "Discordo totalmente",
+    "Não sei"
+  ],
+  "odc1[SQ006]": [
+    "Concordo totalmente",
+    "Concordo em parte",
+    "Discordo em parte",
+    "Discordo totalmente",
+    "Não sei"
+  ],
+  "odc1[SQ007]": [
+    "Concordo totalmente",
+    "Concordo em parte",
+    "Discordo em parte",
+    "Discordo totalmente",
+    "Não sei"
+  ],
+  "odc2": [
+    "Muito importante",
+    "Importante",
+    "Pouco importante",
+    "Nada importante",
+    "Não sei"
+  ],
+  "odc3[SQ001]": [
+    "Muito importante",
+    "Importante",
+    "Um pouco importante",
+    "Nada importante",
+    "Não sei"
+  ],
+  "odc3[SQ002]": [
+    "Muito importante",
+    "Importante",
+    "Um pouco importante",
+    "Nada importante",
+    "Não sei"
+  ],
+  "odc3[SQ003]": [
+    "Muito importante",
+    "Importante",
+    "Um pouco importante",
+    "Nada importante",
+    "Não sei"
+  ],
+  "odc3[SQ004]": [
+    "Muito importante",
+    "Importante",
+    "Um pouco importante",
+    "Nada importante",
+    "Não sei"
+  ],
+  "odc3[SQ005]": [
+    "Muito importante",
+    "Importante",
+    "Um pouco importante",
+    "Nada importante",
+    "Não sei"
+  ],
+  "odc3[SQ006]": [
+    "Muito importante",
+    "Importante",
+    "Um pouco importante",
+    "Nada importante",
+    "Não sei"
+  ],
+  "odc3[SQ007]": [
+    "Muito importante",
+    "Importante",
+    "Um pouco importante",
+    "Nada importante",
+    "Não sei"
+  ],
+  "odc3[SQ008]": [
+    "Muito importante",
+    "Importante",
+    "Um pouco importante",
+    "Nada importante",
+    "Não sei"
+  ],
+  "odc3[SQ009]": [
+    "Muito importante",
+    "Importante",
+    "Um pouco importante",
+    "Nada importante",
+    "Não sei"
+  ],
+  "odc4[SQ001]": [
+    "Para diminuir a lacuna de conhecimento que há entre os cientistas e o público."
+  ],
+  "odc4[SQ002]": [
+    "Para diminuir a lacuna de conhecimento que há entre os cientistas e o público."
+  ],
+  "odc4[SQ003]": [
+    "Para diminuir a lacuna de conhecimento que há entre os cientistas e o público."
+  ],
+  "odc4[SQ004]": [
+    "Para diminuir a lacuna de conhecimento que há entre os cientistas e o público."
+  ],
+  "odc4[SQ005]": [
+    "Para diminuir a lacuna de conhecimento que há entre os cientistas e o público."
+  ],
+  "odc4[SQ006]": [
+    "Para diminuir a lacuna de conhecimento que há entre os cientistas e o público."
+  ],
+  "odc4[SQ007]": [
+    "Para diminuir a lacuna de conhecimento que há entre os cientistas e o público."
+  ],
+  "odc4[SQ008]": [
+    "Para diminuir a lacuna de conhecimento que há entre os cientistas e o público."
+  ],
+  "odc4[SQ009]": [
+    "Para diminuir a lacuna de conhecimento que há entre os cientistas e o público."
+  ]
+}

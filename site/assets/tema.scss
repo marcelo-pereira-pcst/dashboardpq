@@ -1,0 +1,79 @@
+/*-- scss:defaults --*/
+
+// Tokens de tinta e superfície. Vêm do sistema de design usado nos gráficos —
+// declarados aqui também para que a página e os gráficos não divirjam: um
+// eixo cinza que não é o mesmo cinza do texto secundário é o tipo de detalhe
+// que ninguém aponta e todo mundo sente.
+// Desliga o @import de fontes do Google que os temas bootswatch trazem.
+// Um site acadêmico não deveria fazer o navegador de cada leitor pedir um
+// arquivo a um terceiro só para escolher a fonte — e a fonte do sistema
+// carrega instantaneamente, funciona offline e não vaza referer.
+$web-font-path: "" !default;
+
+$body-bg:        #ffffff !default;
+$body-color:     #0b0b0b !default;
+$link-color:     #1c5cab !default;
+$border-color:   #e1e0d9 !default;
+
+$font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+                         "Helvetica Neue", Arial, sans-serif !default;
+$font-size-root: 16px !default;
+$headings-font-weight: 650 !default;
+
+$navbar-bg:      #fcfcfb !default;
+$navbar-fg:      #0b0b0b !default;
+$footer-bg:      #fcfcfb !default;
+
+/*-- scss:rules --*/
+
+// A navbar é a navegação principal do site: precisa parecer navegação, não
+// um enfeite. Contorno inferior de um fio e item ativo marcado por peso e
+// sublinhado — nunca só por cor, que some para quem não distingue matiz.
+.navbar {
+  border-bottom: 1px solid #e1e0d9;
+}
+.navbar .navbar-nav .nav-link {
+  padding-inline: 0.65rem;
+}
+.navbar .navbar-nav .nav-link.active {
+  font-weight: 650;
+  box-shadow: inset 0 -2px 0 #1c5cab;
+}
+
+.quarto-title-block .quarto-title h1.title {
+  font-size: 1.7rem;
+  line-height: 1.2;
+}
+.quarto-title-block .subtitle {
+  color: #52514e;
+  font-size: 1rem;
+}
+
+// Abas internas (panel-tabset) — as "abas" de cada página do dashboard antigo.
+.panel-tabset > .nav-tabs {
+  border-bottom: 1px solid #e1e0d9;
+  gap: 2px;
+}
+.panel-tabset > .nav-tabs > li > .nav-link {
+  color: #52514e;
+  border: none;
+  border-bottom: 2px solid transparent;
+  padding: 0.5rem 0.85rem;
+}
+.panel-tabset > .nav-tabs > li > .nav-link.active {
+  color: #0b0b0b;
+  font-weight: 600;
+  border-bottom-color: #1c5cab;
+  background: transparent;
+}
+.panel-tabset > .tab-content {
+  padding-top: 1.25rem;
+}
+
+main a { text-underline-offset: 2px; }
+
+.footer {
+  border-top: 1px solid #e1e0d9;
+  font-size: 0.85rem;
+  color: #52514e;
+}

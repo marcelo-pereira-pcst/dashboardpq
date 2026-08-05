@@ -1,0 +1,44 @@
+---
+title: "Opiniões sobre divulgação científica"
+subtitle: "O que os cientistas pensam que a divulgação científica é, quanto ela importa e para quem."
+---
+
+```{=html}
+<script>document.body.dataset.pqSecao = "opinioes-dc";</script>
+```
+
+::: {.panel-tabset}
+
+## Modelos de divulgação
+
+### As afirmações que seguem contêm várias posições que podem ter consequências para a comunicação entre a ciência e o público. Qual a sua opinião sobre cada afirmação? {.pq-pergunta}
+
+::: {data-pq="distribuicao" data-bloco="odc1"}
+:::
+
+::: {data-pq="mosaico" data-bloco="odc1"}
+:::
+
+{{< include _explicacao-mosaico.qmd >}}
+
+## Importância
+
+### Considerando todas as atividades do seu trabalho, que importância você atribui à comunicação com o público não-especialista? {.pq-pergunta}
+
+::: {data-pq="distribuicao" data-bloco="odc2"}
+:::
+
+::: {data-pq="mosaico" data-bloco="odc2"}
+:::
+
+## Públicos
+
+### Considerando o seu trabalho atual, qual importância você atribui à comunicação com os seguintes públicos não especialistas: {.pq-pergunta}
+
+::: {data-pq="distribuicao" data-bloco="odc3"}
+:::
+
+::: {data-pq="mosaico" data-bloco="odc3"}
+:::
+
+:::

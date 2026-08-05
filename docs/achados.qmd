@@ -1,0 +1,194 @@
+---
+title: "Achados"
+subtitle: "O que este survey mostra — e o que ele não mostra."
+toc: true
+toc-title: "Nesta página"
+---
+
+```{=html}
+<script>document.body.dataset.pqSecao = "";</script>
+```
+
+::: {.callout-note appearance="simple"}
+Esta página é interpretação, não dado bruto. Os números vêm todos do mesmo
+build que alimenta o resto do site — se um deles mudar, o texto muda junto —,
+mas as leituras são de Marcelo Pereira e podem ser contestadas com os mesmos
+dados. As seções seguintes têm os cruzamentos para quem quiser contestar.
+:::
+
+## A síntese em uma frase
+
+**As práticas de divulgação científica dos bolsistas PQ variam muito pouco
+segundo o perfil sociodemográfico; o que varia são as opiniões sobre temas
+controversos.**
+
+O site calcula <span data-pq-num="meta.n_cruzamentos"></span> cruzamentos. A
+mediana do V de Cramér é
+<span data-pq-num="meta.v_cramer_mediana" data-casas="2"></span> — efeito
+desprezível pela referência usual. Apenas 33 passam de 0,15 e 11 passam de
+0,20. E, entre esses 11, três não são achados: religião com importância da
+religião (V = 0,50) medem quase a mesma coisa, nível da bolsa com tempo de
+vínculo (0,23) é como a carreira funciona, e grande área com ciência
+básica/aplicada (0,34) é quase uma definição.
+
+Sobram sete associações substantivas em mil. **Isso é um resultado, não uma
+falha do survey.** A comunidade PQ é, nesta dimensão, notavelmente homogênea.
+
+A distribuição inteira dos tamanhos de efeito está na
+[nota metodológica](metodologia.qmd#tamanhos-de-efeito), com filtro por bloco
+e download em CSV.
+
+## O que os cientistas efetivamente fazem
+
+Sete em cada dez deram ao menos uma palestra pública no ano anterior à coleta.
+Um em cada dez participou de audiência pública no legislativo.
+
+::: {data-pq="distribuicao" data-bloco="adc1"}
+:::
+
+A ordem tem uma lógica clara: **os formatos mais praticados são os
+unidirecionais e episódicos** — palestra, entrevista, curso —, e os menos
+praticados são os que exigem inserção institucional continuada (audiência
+pública, museu, escola básica) ou que dependem de uma rede organizada
+específica (Pint of Science). A divulgação científica destes pesquisadores é,
+majoritariamente, um evento pontual em que o cientista fala.
+
+O padrão se confirma na relação com a imprensa: **45% respondem "em geral,
+não"** quando perguntados se procuram a mídia ao concluir uma pesquisa. A
+comunicação é reativa.
+
+## A contradição central: diálogo endossado, competência negada
+
+Este é, na minha leitura, o achado mais interessante do survey — e o mais
+fácil de perder navegando pelos gráficos.
+
+::: {data-pq="distribuicao" data-bloco="odc1"}
+:::
+
+Lidos juntos, os sete itens não descrevem um grupo dividido entre o modelo de
+déficit e o modelo de diálogo. Descrevem **o mesmo grupo endossando os dois**:
+
+| Afirmação | Concorda |
+|---|---:|
+| Mais conhecimento leva a atitudes mais positivas em relação à C&T | 98,0% |
+| Uma imagem positiva garante apoio político para a ciência | 94,2% |
+| Além de explicar, o papel da DC é permitir a participação da população | 88,8% |
+| É essencial o diálogo entre interlocutores em pé de igualdade | 79,5% |
+| A DC deve **primeiramente** sanar o déficit de conhecimento | 79,0% |
+| O público não tem educação suficiente para entender as descobertas | 48,5% |
+| **O público é suficientemente capaz de participar da decisão sobre C&T** | **41,6%** |
+
+A premissa central do modelo de déficit — mais conhecimento produz mais
+simpatia — tem adesão de 98%, praticamente unânime, apesar de ser uma das
+hipóteses mais desmentidas pela literatura empírica da área. Ao mesmo tempo,
+80% dizem ser essencial o diálogo em pé de igualdade.
+
+**A tensão aparece quando a pergunta sai do abstrato.** O bloco de opiniões
+sobre C&T repete o padrão: 97,7% acham que os governantes devem seguir as
+orientações dos cientistas, mas só 69,6% acham que a população deve ser ouvida
+nas grandes decisões sobre os rumos da C&T. E quando se pergunta quem deveria
+participar da regulação, a sociedade civil (80,2%) fica **à frente dos
+representantes políticos eleitos (63,8%)**, ambos muito atrás dos cientistas
+especialistas (98,7%).
+
+::: {data-pq="distribuicao" data-bloco="octs4"}
+:::
+
+A leitura que proponho: o compromisso com o diálogo é largo enquanto princípio
+e estreito enquanto arranjo decisório. "Ouvir" tem adesão; "ser capaz de
+decidir" não. O interlocutor é bem-vindo à conversa e não à mesa. E o fato de
+os eleitos ficarem atrás da sociedade civil sugere que a desconfiança não é do
+público — é da política.
+
+## O obstáculo é institucional, não pessoal
+
+::: {data-pq="distribuicao" data-bloco="MO02"}
+:::
+
+O obstáculo mais marcado não é falta de tempo nem falta de habilidade: é
+**"este tipo de atividade não é valorizado na minha carreira de pesquisador ou
+docente" (34,9%)**. Vem à frente de "para mim não há obstáculos" (32,5%) e de
+"me tira muito tempo" (28,5%). Só 18,2% alegam não ter competência para fazê-lo.
+
+Do outro lado, as motivações são quase todas normativas:
+
+::: {data-pq="distribuicao" data-bloco="MO01"}
+:::
+
+"Informar as pessoas, ensinar" (64,7%) domina; "útil para minha carreira
+acadêmica" fica em 8,1% e "atrair fundos para a pesquisa" em 11,8%.
+
+**Os dois blocos juntos dizem a mesma coisa por caminhos opostos:** quem
+divulga, divulga por convicção e apesar do sistema de incentivos, não por causa
+dele. Isso tem uma consequência de política pública direta — mexer no que conta
+para progressão na carreira e para avaliação de bolsa PQ provavelmente move
+mais o ponteiro do que qualquer programa de formação. Sobretudo porque
+formação, aparentemente, não é o gargalo: cerca de metade dos respondentes já
+participou de oficina ou curso de curta duração em divulgação científica.
+
+## Onde há variação de verdade
+
+Das 33 associações com V ≥ 0,15, dez envolvem **sexo**, sete a **grande área**,
+seis a **orientação política** e quatro o **tempo de vínculo**. Mas o dado que
+importa não é qual variável aparece mais — é **em que ela aparece**:
+
+| Cruzamento | V |
+|---|---:|
+| Preocupação com energia nuclear × Sexo | 0,26 |
+| Preocupação com desmatamento na Amazônia × Orientação política | 0,26 |
+| Motivação "contribuir ao debate público" × Grande área | 0,24 |
+| Preocupação com alimentos transgênicos × Grande área | 0,21 |
+| Preocupação com mudanças climáticas × Orientação política | 0,21 |
+
+O bloco de **atividades** de divulgação tem V máximo de 0,15. O bloco de
+**preocupações** com temas de C&T chega a 0,26. A diferença é sistemática e é o
+resumo do survey: **o que os cientistas fazem em divulgação é homogêneo; o que
+eles pensam sobre risco não é.**
+
+E as preocupações se separam em dois grupos limpos:
+
+::: {data-pq="distribuicao" data-bloco="octs6"}
+:::
+
+Quase consenso nos temas ambientais — desmatamento (89,0%), mudanças climáticas
+(87,2%), mineração (86,9%), agrotóxicos (78,6%). Dissenso nos tecnológicos —
+energia nuclear (39,9%) e transgênicos (35,0%). E é exatamente nos dois de
+baixo que aparecem as maiores associações com perfil. Onde há consenso, não há
+o que explicar por sexo ou por área; onde há divisão, o perfil prevê.
+
+## O que este survey não mostra
+
+Quatro limites que mudam o que se pode concluir. Estão detalhados na
+[nota metodológica](metodologia.qmd).
+
+**Autosseleção é o maior risco, e a ponderação não o resolve.** A taxa de
+resposta foi de cerca de 12%, num questionário voluntário sobre divulgação
+científica. A hipótese de que quem se interessa pelo tema respondeu mais é
+plausível, e nenhuma das quatro variáveis de estratificação (área, sexo,
+região, nível) a captura. Os percentuais de atividade publicados aqui devem
+ser lidos como **um teto**, não como uma estimativa central.
+
+**É um retrato de 2023.** Corte transversal único, coletado entre janeiro e
+março daquele ano. Nada aqui sustenta afirmação sobre tendência.
+
+**Associação não é mecanismo.** Todos os cruzamentos são bivariados. Quando
+grande área prevê participação em evento de ONG, isso pode ser efeito da área,
+da composição por sexo dentro da área, do tipo de objeto de pesquisa, ou de
+tudo junto. Separar exigiria modelagem multivariada, que estes agregados não
+permitem.
+
+**Os efeitos são pequenos.** Repetindo porque é o ponto que mais se perde ao
+navegar: mediana de 0,04, e nenhuma associação entre prática de divulgação e
+perfil passa de 0,15. Um cruzamento marcado como significativo aqui quase nunca
+é praticamente importante.
+
+## Para citar
+
+PEREIRA, M. *Ciência, sociedade, divulgação científica: a visão dos
+cientistas*. Dissertação (Mestrado em Sociologia) — Universidade Federal de
+Minas Gerais, Belo Horizonte, 2023. <http://hdl.handle.net/1843/55328>
+
+PEREIRA, M.; CASTELFRANCHI, Y.; MASSARANI, L. Científicos brasileños y
+divulgación científica: una propuesta de clasificación. *Revista
+Iberoamericana de Ciencia, Tecnología y Sociedad — CTS*, 2024.
+<https://ojs.revistacts.net/index.php/CTS/article/view/779>

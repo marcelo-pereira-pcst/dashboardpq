@@ -1,0 +1,264 @@
+/* ==========================================================================
+   Componentes do dashboard
+   ==========================================================================
+
+   Os tokens abaixo são os mesmos usados pelos gráficos em `dashboard.js`.
+   Estão declarados como custom properties para que a troca de um valor
+   aconteça em UM lugar — um eixo que não é do mesmo cinza do texto
+   secundário é o tipo de detalhe que ninguém aponta e todo mundo sente.
+
+   A ESCALA DIVERGENTE (azul↔vermelho) é reservada, em todo o site, para os
+   resíduos de Pearson dos mosaicos. Nenhum outro gráfico usa polaridade por
+   cor. É por isso que as barras de escalas ordinais (concordância,
+   importância, preocupação) usam uma rampa de UM tom, e não a barra
+   divergente que seria o padrão para Likert: com as duas convenções na mesma
+   página, o vermelho passaria a significar "discorda" num gráfico e "acima do
+   esperado" no de baixo.
+   ========================================================================== */
+
+:root {
+  --pq-superficie: #fcfcfb;
+  --pq-tinta: #0b0b0b;
+  --pq-tinta-2: #52514e;
+  --pq-tinta-3: #898781;
+  --pq-grade: #e1e0d9;
+  --pq-eixo: #c3c2b7;
+  --pq-acento: #1c5cab;
+  --pq-realce: #f6f6f4;
+}
+
+/* --------------------------------------------------------------- seletores */
+
+.pq-controles {
+  border: 1px solid var(--pq-grade);
+  border-radius: 10px;
+  padding: 0.75rem 0.9rem 0.9rem;
+  margin-bottom: 1rem;
+  background: var(--pq-superficie);
+}
+.pq-controles + .pq-controles { margin-top: -0.5rem; }
+
+.pq-controles__rotulo {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--pq-tinta-2);
+  margin-bottom: 0.45rem;
+  font-weight: 600;
+}
+
+.pq-pilulas { display: flex; flex-wrap: wrap; gap: 6px; }
+
+.pq-pilulas button {
+  font: inherit;
+  font-size: 0.85rem;
+  line-height: 1.25;
+  padding: 5px 11px;
+  border: 1px solid var(--pq-grade);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--pq-tinta);
+  cursor: pointer;
+  transition: background 0.12s, border-color 0.12s;
+  max-width: 100%;
+  text-align: left;
+}
+.pq-pilulas button:hover { background: var(--pq-realce); }
+.pq-pilulas button[aria-pressed="true"] {
+  background: var(--pq-tinta);
+  border-color: var(--pq-tinta);
+  color: #fff;
+}
+.pq-pilulas button:focus-visible {
+  outline: 2px solid var(--pq-acento);
+  outline-offset: 2px;
+}
+
+/* ----------------------------------------------------------------- resumo */
+
+.pq-resumo {
+  background: var(--pq-realce);
+  border: 1px solid var(--pq-grade);
+  border-left: 3px solid var(--pq-acento);
+  border-radius: 6px;
+  padding: 0.65rem 0.85rem;
+  margin: 1rem 0 0.6rem;
+  font-size: 0.92rem;
+}
+.pq-resumo b { font-weight: 650; }
+.pq-resumo .pq-sep { color: var(--pq-eixo); margin: 0 0.5rem; }
+.pq-resumo .pq-fraco { color: var(--pq-tinta-2); }
+.pq-resumo .pq-alerta {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 0.86rem;
+  color: #8c2f39;
+}
+
+/* ---------------------------------------------------------------- gráficos */
+
+.pq-grafico { width: 100%; }
+.pq-grafico .modebar { display: none; }
+.pq-grafico:hover .modebar { display: block; }
+
+.pq-nota {
+  font-size: 0.82rem;
+  color: var(--pq-tinta-2);
+  margin: 0.2rem 0 1.1rem;
+}
+
+.pq-legenda {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  font-size: 0.82rem;
+  color: var(--pq-tinta-2);
+  margin: 0 0 0.5rem;
+}
+.pq-legenda span { display: inline-flex; align-items: center; gap: 5px; }
+.pq-legenda i {
+  width: 11px; height: 11px; border-radius: 2px;
+  display: inline-block; flex: none;
+}
+
+.pq-pergunta {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 1.6rem 0 0.7rem;
+}
+
+/* ------------------------------------------------------- tabela (a11y twin) */
+
+details.pq-tabela {
+  border: 1px solid var(--pq-grade);
+  border-radius: 8px;
+  padding: 0 0.85rem;
+  margin-bottom: 0.8rem;
+  background: var(--pq-superficie);
+}
+details.pq-tabela[open] { padding-bottom: 0.85rem; }
+details.pq-tabela > summary {
+  cursor: pointer;
+  padding: 0.6rem 0;
+  font-size: 0.88rem;
+  font-weight: 550;
+  color: var(--pq-tinta-2);
+}
+.pq-rolagem { overflow-x: auto; }
+.pq-rolagem table {
+  border-collapse: collapse;
+  font-size: 0.84rem;
+  width: 100%;
+  font-variant-numeric: tabular-nums;
+}
+.pq-rolagem th, .pq-rolagem td {
+  border: 1px solid var(--pq-grade);
+  padding: 4px 9px;
+  text-align: right;
+  white-space: nowrap;
+}
+.pq-rolagem th:first-child, .pq-rolagem td:first-child {
+  text-align: left;
+  position: sticky;
+  left: 0;
+  background: var(--pq-superficie);
+  white-space: normal;
+  min-width: 12rem;
+}
+.pq-rolagem thead th { background: var(--pq-realce); font-weight: 600; }
+.pq-rolagem tbody tr.pq-total td,
+.pq-rolagem tbody tr.pq-total th { font-weight: 650; background: var(--pq-realce); }
+
+.pq-botao {
+  font: inherit;
+  font-size: 0.84rem;
+  margin-top: 0.6rem;
+  padding: 5px 12px;
+  border: 1px solid var(--pq-grade);
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+}
+.pq-botao:hover { background: var(--pq-realce); }
+
+/* ------------------------------------------------------------------ erros */
+
+.pq-erro {
+  border: 1px solid #8c2f39;
+  border-radius: 8px;
+  padding: 0.85rem;
+  color: #8c2f39;
+  font-size: 0.9rem;
+}
+
+.pq-carregando {
+  color: var(--pq-tinta-3);
+  font-size: 0.9rem;
+  padding: 1.5rem 0;
+}
+
+/* ------------------------------------------------------------------ móvel */
+
+@media (max-width: 640px) {
+  .pq-pilulas button { font-size: 0.8rem; padding: 5px 9px; }
+  .pq-controles { padding: 0.6rem 0.7rem 0.75rem; }
+  .pq-rolagem th:first-child, .pq-rolagem td:first-child { min-width: 8rem; }
+}
+
+@media print {
+  .pq-controles { display: none; }
+  details.pq-tabela { border: none; }
+  details.pq-tabela > summary { display: none; }
+  details.pq-tabela .pq-rolagem { display: block !important; }
+}
+
+
+/* ------------------------------------------- tabela de tamanhos de efeito */
+
+.pq-filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1.1rem;
+  align-items: center;
+  font-size: 0.86rem;
+}
+.pq-filtros label { display: inline-flex; align-items: center; gap: 0.4rem; }
+.pq-filtros select,
+.pq-filtros input[type="search"] {
+  font: inherit;
+  font-size: 0.86rem;
+  padding: 4px 8px;
+  border: 1px solid var(--pq-grade);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--pq-tinta);
+  max-width: 15rem;
+}
+.pq-filtros .pq-check { cursor: pointer; }
+
+table.pq-efeitos { width: 100%; }
+table.pq-efeitos th.pq-ord {
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+table.pq-efeitos th.pq-ord::after { content: " ↕"; color: var(--pq-tinta-3); }
+table.pq-efeitos th.pq-ord:hover { color: var(--pq-acento); }
+table.pq-efeitos td, table.pq-efeitos th { padding: 5px 9px; }
+table.pq-efeitos tbody th {
+  font-weight: 500;
+  max-width: 22rem;
+  min-width: 14rem;
+}
+/* Não significativo depois da correção: esmaecido, não escondido. A linha
+   continua legível e continua no CSV — some do olhar, não do registro. */
+table.pq-efeitos tr.pq-nao-sig { color: var(--pq-tinta-3); }
+table.pq-efeitos tr.pq-nao-sig th { color: var(--pq-tinta-3); }
+.pq-bloco {
+  display: block;
+  font-size: 0.74rem;
+  font-weight: 400;
+  color: var(--pq-tinta-3);
+}
+table.pq-efeitos abbr { text-decoration: none; font-size: 0.78rem; }

@@ -1,0 +1,8 @@
+# Core Libraries
+streamlit==1.42.0              # Framework principal
+pandas==2.1.4                  # Manipulação de dados
+numpy==1.26.0                  # Computação numérica
+matplotlib==3.8.0              # Visualização básica
+plotly==5.14.1                 # Visualizações interativas
+statsmodels==0.14.1            # Análises estatísticas
+scipy==1.12.0                  # Estatísticas e cálculos científicos

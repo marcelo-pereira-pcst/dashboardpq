@@ -1,0 +1,59 @@
+::: {.callout-note collapse="true" appearance="simple"}
+## O que é um gráfico de mosaico?
+
+Um **gráfico de mosaico** representa a relação entre duas variáveis
+categóricas dividindo um retângulo em áreas proporcionais às frequências.
+
+- A **largura** de cada faixa vertical é proporcional a quantas pessoas estão
+  naquela categoria da variável sociodemográfica.
+- A **altura** de cada bloco, dentro da faixa, é a proporção daquela resposta
+  *entre* as pessoas daquela faixa.
+- Se as duas variáveis fossem independentes, todas as faixas teriam a mesma
+  divisão horizontal. É o desalinhamento entre elas que mostra a associação.
+
+### As cores: resíduos de Pearson
+
+O resíduo de Pearson de uma célula é (observado − esperado) ÷ √esperado, onde
+*esperado* é a contagem que haveria se não houvesse nenhuma associação.
+
+- **Vermelho**: a combinação ocorre mais do que o esperado.
+- **Azul**: ocorre menos do que o esperado.
+- **Cinza claro**: resíduo entre −[<span data-pq-num="meta.limiar_neutro"></span>]{}
+  e +[<span data-pq-num="meta.limiar_neutro"></span>]{}, desvio pequeno demais
+  para ser destacado.
+
+A escala vai de −[<span data-pq-num="meta.escala_residuo"></span>]{} a
++[<span data-pq-num="meta.escala_residuo"></span>]{} e é **a mesma em todos os
+gráficos do site**, então um vermelho forte em uma página significa a mesma
+coisa que em outra.
+
+### Um exemplo
+
+::: {data-pq="exemplo" data-chave="adc1[SQ007]|CE11"}
+:::
+
+Grande área é a dimensão que mais diferencia os cientistas em todo o survey.
+Aqui, quem está em Ciências Exatas e da Terra participa de eventos em ONGs e
+movimentos sociais bem menos do que o esperado — o bloco "Nenhuma vez" é
+vermelho forte —, enquanto Ciências Humanas e Sociais Aplicadas mostram o
+padrão inverso. Ainda assim, o V de Cramér é 0,15: a associação é real, e
+modesta.
+
+### E o valor de *p*?
+
+Acima de cada gráfico aparecem três números, e vale entender o papel de cada
+um:
+
+- O **valor de *p*** responde apenas "esta associação é distinguível de
+  zero?". Com cerca de 1.500 respondentes por cruzamento, quase sempre a
+  resposta é sim — então o *p*, sozinho, quase não discrimina. Ele é ajustado
+  pelo método de Benjamini–Hochberg, porque cada bloco de perguntas realiza
+  dezenas ou centenas de testes de uma vez e alguns sairiam "significativos"
+  por puro acaso.
+- O **V de Cramér** responde à pergunta que interessa: *quão forte* é a
+  associação. Vai de 0 (nenhuma) a 1 (perfeita). Neste survey, as associações
+  entre práticas de divulgação e perfil sociodemográfico ficam quase todas
+  abaixo de 0,15 — reais, e pequenas.
+- O **n** informa quantas pessoas responderam às duas perguntas do
+  cruzamento. Quem deixou qualquer uma das duas em branco fica de fora.
+:::

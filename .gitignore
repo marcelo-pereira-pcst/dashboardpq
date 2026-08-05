@@ -1,0 +1,60 @@
+# Pastas
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+venv/
+env/
+.venv/
+logs/
+.~lock.data_tratado.csv#
+_to_delete/
+
+# Conteúdo de dados: ignora tudo, exceto os artefatos que o app precisa.
+# Precisa ser "dados/*" e não "dados/": o git não consegue reincluir um arquivo
+# cujo diretório-pai está ignorado, então as linhas "!" abaixo não teriam efeito.
+dados/*
+!dados/questionario.pdf
+!dados/tabela_associacoes.csv
+!dados/pesos_pos_estratificacao.csv
+
+# Arquivos
+*.pyc
+*.tmp
+*.log
+*.cache
+*.swp
+*.swo
+*.ipynb
+.DS_Store
+Thumbs.db
+.env
+*ipynb
+*.RData
+*.R
+.RHistory
+
+# PDFs grandes que não fazem parte do app (dissertação, artigos)
+*.pdf
+!dados/questionario.pdf
+
+# Metadados: ignorados por padrão, exceto os dois que o app carrega
+*.json
+!categories.json
+!varmap.json
+
+# Agregados do site estático: são o único insumo das páginas e precisam ir
+# para o repositório. Sem estas exceções a regra "*.json" acima os ignora
+# silenciosamente e o site publicado quebra com um 404.
+!site/dados/*.json
+
+# Saída do Quarto. `docs/` é o que o GitHub Pages serve, então é comitado de
+# propósito: o site publicado passa a ser exatamente o que está no repositório,
+# sem depender de CI. Rode `python build.py && quarto render` antes de comitar.
+!docs/**/*.json
+site/.quarto/
+site/_site/
+
+# Canal de entrega de binários grandes (tarball do Quarto, etc.). Nunca entra
+# no repositório.
+_ferramentas/

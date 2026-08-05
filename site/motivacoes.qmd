@@ -1,0 +1,48 @@
+---
+title: "Motivações e obstáculos"
+subtitle: "O que empurra e o que trava a comunicação com o público não-especialista."
+---
+
+```{=html}
+<script>document.body.dataset.pqSecao = "motivacoes";</script>
+```
+
+::: {.panel-tabset}
+
+## Motivações
+
+### Marque os elementos mais importantes que, para você pessoalmente, são uma motivação para comunicar seu trabalho a um público não-especialista. {.pq-pergunta}
+
+Cada respondente podia marcar **no máximo três** opções.
+
+::: {data-pq="distribuicao" data-bloco="MO01"}
+:::
+
+::: {data-pq="mosaico" data-bloco="MO01"}
+:::
+
+{{< include _explicacao-mosaico.qmd >}}
+
+## Obstáculos
+
+### Marque os elementos mais importantes que, para você pessoalmente, são um obstáculo para comunicar seu trabalho a um público não-especialista. {.pq-pergunta}
+
+Cada respondente podia marcar **no máximo três** opções.
+
+::: {data-pq="distribuicao" data-bloco="MO02"}
+:::
+
+::: {data-pq="mosaico" data-bloco="MO02"}
+:::
+
+## Formação
+
+### Você conhece ou participou de alguma destas iniciativas de formação em divulgação científica? {.pq-pergunta}
+
+::: {data-pq="distribuicao" data-bloco="MO04"}
+:::
+
+::: {data-pq="mosaico" data-bloco="MO04"}
+:::
+
+:::

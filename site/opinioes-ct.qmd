@@ -1,0 +1,70 @@
+---
+title: "Opiniões sobre ciência e tecnologia"
+subtitle: "Como os cientistas veem a ciência brasileira, seus riscos e benefícios, e quem deveria participar da política de C&T."
+---
+
+```{=html}
+<script>document.body.dataset.pqSecao = "opinioes-ct";</script>
+```
+
+::: {.panel-tabset}
+
+## Visão da ciência brasileira
+
+### Se você fosse colocar a ciência brasileira num cenário mundial, você diria que ela se encontra atualmente em um nível… {.pq-pergunta}
+
+::: {data-pq="distribuicao" data-bloco="octs1"}
+:::
+
+::: {data-pq="mosaico" data-bloco="octs1"}
+:::
+
+{{< include _explicacao-mosaico.qmd >}}
+
+## Riscos e benefícios
+
+### Vamos agora falar sobre os riscos e os benefícios da pesquisa científica. Em sua opinião, a ciência traz para a humanidade… {.pq-pergunta}
+
+::: {data-pq="distribuicao" data-bloco="octs2"}
+:::
+
+::: {data-pq="mosaico" data-bloco="octs2"}
+:::
+
+### E em sua opinião, a ciência traz para a humanidade… {.pq-pergunta}
+
+::: {data-pq="distribuicao" data-bloco="octs3"}
+:::
+
+::: {data-pq="mosaico" data-bloco="octs3"}
+:::
+
+## Temas de preocupação
+
+### Entre os temas a seguir, que despertaram algum grau de preocupação na opinião pública, o quanto você está preocupado, como cidadão, com… {.pq-pergunta}
+
+::: {data-pq="distribuicao" data-bloco="octs6"}
+:::
+
+::: {data-pq="mosaico" data-bloco="octs6"}
+:::
+
+## Gestão da política de C&T
+
+### Na sua opinião, a regulação e gestão da ciência e da tecnologia deveriam ter a participação de… {.pq-pergunta}
+
+::: {data-pq="distribuicao" data-bloco="octs4"}
+:::
+
+::: {data-pq="mosaico" data-bloco="octs4"}
+:::
+
+### Marque por favor sua concordância ou discordância com estas afirmações sobre ciência e tecnologia. {.pq-pergunta}
+
+::: {data-pq="distribuicao" data-bloco="octs5"}
+:::
+
+::: {data-pq="mosaico" data-bloco="octs5"}
+:::
+
+:::
