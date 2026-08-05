@@ -8,6 +8,11 @@ env/
 .venv/
 logs/
 .~lock.data_tratado.csv#
+
+# Microdado. Nunca entra em repositorio publico. A pasta de publicacao existe
+# justamente para nao depender so desta linha, mas cinto e suspensorio.
+data_tratado.csv
+dados/results-survey*.csv
 _to_delete/
 
 # Conteúdo de dados: ignora tudo, exceto os artefatos que o app precisa.

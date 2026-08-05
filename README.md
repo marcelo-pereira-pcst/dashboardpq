@@ -84,7 +84,9 @@ importante — o site publica o tamanho de efeito ao lado de cada teste, e uma
 
 ## Dados e citação
 
-Agregados depositados com DOI: ⟨preencher após o depósito⟩
+PEREIRA, M. *Cientistas brasileiros e divulgação científica: agregados do
+survey com bolsistas PQ do CNPq (2023)*. Zenodo, 2026.
+<https://doi.org/10.5281/zenodo.21807142>
 
 PEREIRA, M.; CASTELFRANCHI, Y.; MASSARANI, L. Cientistas brasileiros e
 divulgação científica: uma proposta de classificação. *Revista Iberoamericana

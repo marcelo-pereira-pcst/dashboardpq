@@ -81,7 +81,7 @@
     "href": "metodologia.html#reprodutibilidade",
     "title": "Nota metodológica",
     "section": "Reprodutibilidade",
-    "text": "Reprodutibilidade\n\nCódigo do processamento e do site: https://github.com/marcelo-pereira-pcst/dashboardpq\nQuestionário completo: download em PDF\nBase tratada e dicionário de variáveis: depósito com DOI (em preparação)\n\nOs agregados que alimentam o site podem ser lidos diretamente: dados/base.json traz metadados, variáveis e marginais; os arquivos dados/cruz-*.json trazem os cruzamentos de cada seção."
+    "text": "Reprodutibilidade\n\nCódigo do processamento e do site: https://github.com/marcelo-pereira-pcst/dashboardpq\nQuestionário completo: download em PDF\nAgregados, dicionário de variáveis e tamanhos de efeito, com DOI: https://doi.org/10.5281/zenodo.21807142 (CC BY 4.0). O depósito não contém microdados.\n\nOs agregados que alimentam o site podem ser lidos diretamente: dados/base.json traz metadados, variáveis e marginais; os arquivos dados/cruz-*.json trazem os cruzamentos de cada seção."
   },
   {
     "objectID": "atividades.html",
